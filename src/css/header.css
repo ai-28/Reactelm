@@ -1,28 +1,29 @@
 .header{
-    height: 294px;
+    height: 2.94rem;
     background: linear-gradient(to right, #00a6ff , #0086ff);
-    padding: 0 40px;
+    padding: 0 0.4rem;
 }
-.header .header_select{
-    padding: 56px 0 44px;
+.header .header_select img{
+    width: 0.44rem;
+    height: 0.54rem;
 }
 .header .header_select select{
     background: none;
     border: 0;
     outline: none;
     color: #fff;
-    font-size: 52px;
+    font-size: 0.52rem;
 }
 .header .header_input{
     background: #fff;
-    height: 114px;
+    height: 1.14rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .header .header_input input{
-    font-size: 42px;
-    width: 518px;
+    font-size: 0.42rem;
+    width: 5.18rem;
     outline: none;
     border: 0;
 }

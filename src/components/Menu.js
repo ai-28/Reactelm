@@ -9,6 +9,7 @@ import m7 from '../img/e2_p7.jpg';
 import m8 from '../img/e2_p8.jpg';
 import m9 from '../img/e2_p9.jpg';
 import m10 from '../img/e2_p10.jpg';
+import ml1 from '../img/m_l_1.jpg';
 
 class Menu extends Component {
     render(){
@@ -58,6 +59,7 @@ class Menu extends Component {
             <span>麻辣烫</span>
             </li>
             </ul>
+            <div className="mlb"><img src={ml1}/></div>
             </div>
     );
     }

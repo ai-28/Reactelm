@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import p1 from '../img/h1.jpg';
+import s1 from '../img/s1.jpg';
 
 class Header extends Component {
     render(){
@@ -12,6 +13,7 @@ class Header extends Component {
         </select>
         </div>
         <div className="header_input">
+            <img src={s1}/>
             <input type="text" placeholder="搜索饿了吗商家、商品名称"/>
             </div>
             </div>
