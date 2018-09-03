@@ -3,3 +3,29 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+	box-shadow: 0 -0.266667vw 0.533333vw;
+	padding: 10px 0;
+	box-sizing: border-box;
+	color: #8e8e93;
+}
+footer .foot_active{
+	color: #0089dc;
+}
+footer i{
+	display: block;
+	font-size: 35px!important;
+}
+footer span{
+	display: block;
+	margin-top: 6px;
+}
+
