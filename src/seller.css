@@ -1,0 +1,198 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		em{
+			font-style: normal;
+		}
+		#sellerh2{
+			width: 100%;
+			height: 112px;
+			line-height: 112px;
+			font-size: 45px;
+			text-align: center;
+			font-weight: 700;
+			margin-top: 27px;
+		}
+		.sellertop{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 120px;
+			width: 100%;
+			line-height: 120px;
+			font-size: 40px;
+			color: #7d6666;
+			border-bottom: 1px solid #ddd;
+		}
+		.sellerbox{
+			padding-top: 47px;
+		}
+		.sellerbox img{
+			width: 198px;
+			height: 198px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			float: left;
+			margin-bottom: 282px;
+			margin-left: 31px;
+		}
+		.sellerboxtp {
+				float: left;
+				overflow: hidden;
+				width: 62%;
+				padding: 0 31px;
+			}
+		.sellerboxtp em:nth-child(1){
+			display: block;
+			width: 84px;
+			height: 51px;
+			background: #ffe62f;
+			color: #6f3f15;
+			font-size: 34px;
+			line-height: 51px;
+			text-align: center;
+			float: left;
+			
+		}
+		.sellerboxtp h2{
+			width: 70%;
+			float: left;
+			height: 51px;
+			line-height: 51px;
+			font-size: 46px;
+		}
+		.sellerboxtp em:nth-child(3){
+			display: block;
+			float: right;
+			width: 38px;
+			height: 38px;
+			font-size: 28px;
+			line-height: 38px;
+			border: 1px solid #ddd;
+			text-align: center;
+			margin-top: 4px;
+			color: #666;
+		}
+		
+		
+		.sellerboxsm {
+				float: left;
+				overflow: hidden;
+				width: 62%;
+				padding: 0 31px;
+			}
+		.sellerboxsm span{
+			display: block;
+			height: 108px;
+			line-height: 108px;
+			font-size: 32px;
+		}
+		
+		
+		.sellerboxft {
+			float: left;
+			overflow: hidden;
+			width: 62%;
+			padding: 0 31px;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		.sellerboxft span{
+			display: block;
+			font-size: 32px;
+		}
+		
+		.sellerboxft span em{
+			display: inline-block;
+			color: #ddd;
+			
+		}
+		
+		.sellerboxlt {
+				float: left;
+				overflow: hidden;
+				width: 62%;
+				padding: 46px 31px 41px;
+				border-bottom: 2px dashed #ddd;
+			}
+		.sellerboxlt strong{
+			width: 83px;
+			height: 37px;
+			border: 1px solid #ddd;
+			font-size: 28px;
+			line-height: 37px;
+			text-align: center;
+			display: block;
+			float: left;
+			color: #666;
+			font-weight: normal;
+		}
+		
+		.sellerboxlt p{
+			color: #e8470b;
+			font-size: 28px;
+		}
+		
+		.sellersbox{
+			float: left;
+			overflow: hidden;
+			width: 62%;
+			padding: 13px 31px 41px;
+		}
+		
+		
+		
+		.sellersbox .sellbgbox span{
+			display: block;
+			width: 44px;
+			height: 44px;
+			font-size: 32px;
+			line-height: 44px;
+			color: #fff;
+			float: left;
+			background: #70bc46;
+			text-align: center;
+			border-radius: 5px;
+			margin-bottom: 19px;
+		}
+		.sellersbox .sellbgbox p{
+			width: 90%;
+			height: 44px;
+			font-size: 32px;
+			line-height: 44px;
+			margin-bottom: 19px;
+			float: left;
+			text-indent: 19px;
+			text-align: left;
+			border-radius: 5px;
+			color: #666;
+		}
+		
+		
+		
+		
+		.sellersbox .sellsmbox span{
+			display: block;
+			width: 44px;
+			height: 44px;
+			font-size: 32px;
+			line-height: 44px;
+			color: #fff;
+			float: left;
+			background: #f07373;
+			text-align: center;
+			border-radius: 5px;
+		}
+		.sellersbox .sellsmbox p{
+			width: 90%;
+			height: 44px;
+			font-size: 32px;
+			line-height: 44px;
+			text-indent: 19px;
+			float: left;
+			color: #666;
+			text-align: left;
+			border-radius: 5px;
+		}
