@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Footer from './components/Footer';
 import Menu from './components/Menu';
 import Header from './components/Header';
+import Qianggou from './components/Qianggou'
 import Sellerhead from './components/Sellerhead';
 import Seller from './components/Seller';
 
@@ -16,6 +17,7 @@ class Elm extends Component {
       <div>
         <Header/>
         <Menu/>
+        <Qianggou />
         <Sellerhead />
         <Seller />
         <Seller />

@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
 footer{
 	width: 100%;
 	position: fixed;
@@ -28,3 +29,4 @@ footer span{
 	display: block;
 	margin-top: 6px;
 }
+
