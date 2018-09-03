@@ -9,6 +9,7 @@ footer{
 	bottom: 0;
 	left: 0;
 	display: flex;
+	background: #fff;
 	justify-content: space-around;
 	font-size: 20px;
 	box-shadow: 0 -0.266667vw 0.533333vw;

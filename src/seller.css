@@ -1,0 +1,220 @@
+		
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.sellbigbox{
+			border-bottom: 0.01rem solid #ddd;
+			overflow: hidden;
+		}
+		em{
+			font-style: normal;
+		}
+		#sellerh2{
+			width: 100%;
+			height: 1.12rem;
+			line-height: 1.12rem;
+			font-size: 0.45rem;
+			text-align: center;
+			font-weight: 700;
+			margin-top: 0.27rem;
+		}
+		.sellertop{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 1.20rem;
+			width: 100%;
+			line-height: 1.20rem;
+			font-size: 0.40rem;
+			color: #7d6666;
+			border-bottom: 0.01rem solid #ddd;
+		}
+		.sellerbox{
+			padding-top: 0.47rem;
+		}
+		.sellerbox img{
+			width: 1.98rem;
+			height: 1.98rem;
+			border: 0.01rem solid #ddd;
+			border-radius: 0.05rem;
+			float: left;
+			margin-bottom: 2.82rem;
+			margin-left: 0.31rem;
+		}
+		.sellerboxtp {
+				float: left;
+				overflow: hidden;
+				width: 72%;
+				padding: 0 0.31rem;
+			}
+		.sellerboxtp em:nth-child(1){
+			display: block;
+			width: 0.84rem;
+			height: 0.51rem;
+			background: #ffe62f;
+			color: #6f3f15;
+			font-size: 0.34rem;
+			line-height: 0.51rem;
+			text-align: center;
+			float: left;
+			
+		}
+		.sellerboxtp h2{
+			width: 70%;
+			float: left;
+			height: 0.51rem;
+			line-height: 0.51rem;
+			font-size: 0.46rem;
+		}
+		.sellerboxtp em:nth-child(3){
+			display: block;
+			float: right;
+			width: 0.38rem;
+			height: 0.38rem;
+			font-size: 0.28rem;
+			line-height: 0.38rem;
+			border: 0.01rem solid #ddd;
+			text-align: center;
+			margin-top: 0.04rem;
+			color: #666;
+		}
+		
+		
+		.sellerboxsm {
+				float: left;
+				overflow: hidden;
+				width: 62%;
+				padding: 0 0.31rem;
+			}
+		.sellerboxsm img{
+			width: 1.68rem;
+			height: 0.3rem;
+			float: left;
+			border: 0;
+			margin-right: 0.2rem;
+			margin-left: 0;
+			margin-top: 0.36rem;
+			margin-bottom: 0;
+			}
+		.sellerboxsm span{
+			display: block;
+			height: 1.08rem;
+			line-height: 1.08rem;
+			font-size: 0.32rem;
+		}
+		
+		
+		.sellerboxft {
+			float: left;
+			overflow: hidden;
+			width: 72%;
+			padding: 0 0.31rem;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		.sellerboxft span{
+			display: block;
+			font-size: 0.32rem;
+		}
+		
+		.sellerboxft span em{
+			display: inline-block;
+			color: #ddd;
+			
+		}
+		
+		.sellerboxlt {
+				float: left;
+				overflow: hidden;
+				width: 72%;
+				padding: 0.46rem 0.31rem 0.41rem;
+				border-bottom: 0.02rem dashed #ddd;
+			}
+		.sellerboxlt img{
+			border: 0;
+			width: 0.3rem;
+			height: 0.3rem;
+			margin-bottom: 0;
+			margin-right: 0.2rem;
+		}	
+		.sellerboxlt strong{
+			width: 0.83rem;
+			height: 0.37rem;
+			border: 0.01rem solid #ddd;
+			font-size: 0.28rem;
+			line-height: 0.37rem;
+			text-align: center;
+			display: block;
+			float: left;
+			color: #666;
+			font-weight: normal;
+		}
+		
+		.sellerboxlt p{
+			color: #e8470b;
+			font-size: 0.28rem;
+		}
+		
+		.sellersbox{
+			float: left;
+			overflow: hidden;
+			width:72%;
+			padding: 0.13rem 0.31rem 0.41rem;
+		}
+		
+		
+		
+		.sellersbox .sellbgbox span{
+			display: block;
+			width: 0.44rem;
+			height: 0.44rem;
+			font-size: 0.32rem;
+			line-height: 0.44rem;
+			color: #fff;
+			float: left;
+			background: #70bc46;
+			text-align: center;
+			border-radius: 0.05rem;
+			margin-bottom: 0.19rem;
+		}
+		.sellersbox .sellbgbox p{
+			width: 90%;
+			height: 0.44rem;
+			font-size: 0.32rem;
+			line-height: 0.44rem;
+			margin-bottom: 0.19rem;
+			float: left;
+			text-indent: 0.19rem;
+			text-align: left;
+			border-radius: 0.05rem;
+			color: #666;
+		}
+		
+		
+		
+		
+		.sellersbox .sellsmbox span{
+			display: block;
+			width: 0.44rem;
+			height: 0.44rem;
+			font-size: 0.32rem;
+			line-height: 0.44rem;
+			color: #fff;
+			float: left;
+			background: #f07373;
+			text-align: center;
+			border-radius: 0.05rem;
+		}
+		.sellersbox .sellsmbox p{
+			width: 90%;
+			height: 0.44rem;
+			font-size: 0.32rem;
+			line-height: 0.44rem;
+			text-indent: 0.19rem;
+			float: left;
+			color: #666;
+			text-align: left;
+			border-radius: 0.05rem;
+		}
