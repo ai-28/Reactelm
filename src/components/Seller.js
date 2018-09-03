@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
 
+import seimgh from '../img/e4_p1.jpg'
+import seimg from '../img/e4_p3.jpg'
+import seimgk from '../img/e4_p2.jpg'
+
 
 class Seller extends Component {
 	
 	
 	render(){
 		return(
-			<div>
-				<h2 id="sellerh2">-推荐商家-</h2>
-				<div class="sellertop">
-					<p>综合排序</p>
-					<p>距离最近</p>
-					<p>品质联盟</p>
-					<p>筛选</p>
-				</div>
+			<div class='sellbigbox'>
+				
 				<div class="sellerbox">
-					<img src=""/>
+					<img src={seimgh}/>
 						<div class="sellerboxtp">
 							<em>品牌</em><h2>德克士（京广路店）</h2><em>票</em>
 						</div>
 						<div class="sellerboxsm">
-							<span>4.8月售453单</span>
+							<img src={seimg}/><span>4.8月售453单</span>
 						</div>
 						
 						<div class="sellerboxft">
@@ -28,7 +26,7 @@ class Seller extends Component {
 							<span>865m&nbsp;<em>|</em>&nbsp;32分钟</span>
 						</div>	
 						<div class="sellerboxlt">
-							<strong>汉堡</strong><p>口碑人气好店</p>
+							<strong>汉堡</strong><img src={seimgk}/><p>口碑人气好店</p>
 						</div>
 						<div class="sellersbox">
 							<div class="sellbgbox">
