@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import Footer from './components/Footer';
+import Menu from './components/Menu';
+import Header from './components/Header';
 
 class Elm extends Component {
   render(){
     return(
       <div>
-        <h1>hello</h1>
+        <Header/>
+        <Menu/>
+        <Footer />
       </div>
     );
   }

@@ -1,0 +1,19 @@
+.menu ul li{
+    list-style: none;
+    font-size: 35px;
+    color: #333333;
+    text-align: center;
+}
+.menu ul{
+    display: flex;
+    height: 260px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li img{
+    width: 100px;
+    height: 90px;
+}
+.menu ul li span{
+    display: block;
+}

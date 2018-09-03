@@ -1,0 +1,28 @@
+.header{
+    height: 294px;
+    background: linear-gradient(to right, #00a6ff , #0086ff);
+    padding: 0 40px;
+}
+.header .header_select{
+    padding: 56px 0 44px;
+}
+.header .header_select select{
+    background: none;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 52px;
+}
+.header .header_input{
+    background: #fff;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .header_input input{
+    font-size: 42px;
+    width: 518px;
+    outline: none;
+    border: 0;
+}
